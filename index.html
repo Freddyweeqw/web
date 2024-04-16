@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>El Faro - Diario Local</title>
+    <meta charset="UTF-8">
+    <meta name="title" content="Periódico de la última región de Chilena">
+    <link href="Estilo/Estilo.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<header>
+    <h1>El Faro</h1>
+    <p id="fecha-hora"></p>
+    <img src="https://static.vecteezy.com/system/resources/previews/031/212/827/non_2x/lighthouse-cartoon-icon-illustration-building-outdoor-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg" alt="Logo El Faro" width="400" height="400">
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#deporte">Deporte</a></li>
+        <li><a href="#negocios">Negocios</a></li>
+    </ul>
+</nav>
+
+<section id="inicio-articulos">
+    <h2>Agregar Artículos de Noticias</h2>
+    <form id="formulario-articulo">
+        <input type="text" id="titulo" placeholder="Título del artículo" required>
+        <textarea id="descripcion" placeholder="Descripción del artículo" required></textarea>
+        <button type="submit">Agregar Artículo</button>
+    </form>
+    <div id="lista-articulos">
+        <!-- Aquí se agregarán dinámicamente los artículos -->
+    </div>
+    <p id="contador-articulos"></p>
+</section>
+
+<section id="lista-articulos">
+    <h2>Artículos de Noticias</h2>
+    <table>
+        <tr>
+            <th>Título</th>
+            <th>Categoría</th>
+            <th>Artículo</th>
+        </tr>
+        <tr>
+            <td>Con retorno de argentinos y altos niveles de ocupación: El positivo balance turístico del primer fin de semana largo de 2024</td>
+            <td>General</td>
+            <td>Un "positivo" balance hicieron algunos gremios del turismo respecto de este primer fin de semana largo del año -que se tuvo por Semana Santa-. Y es que a juicio de las asociaciones, hubo una alta ocupación -incluso se señaló que pudo llegar a "los más altos niveles de los últimos tiempos" en la región de Valparaíso- además, hubo una gran presencia de visitantes argentinos. "El balance de esta Semana Santa es bastante positivo. Los niveles de ocupación de la Quinta Región fueron muy altos, tal vez los más altos de los últimos tiempos, esto también influido por la llegada de turistas argentinos", dijo en primer lugar a Emol Máximo Picallo, presidente de la Asociación Chilena de Gastronomía (Achiga).</td>
+        </tr>
+        <tr>
+            <td>Rescate de pescadores desaparecidos en Coronel</td>
+            <td>General</td>
+            <td>Revisa las imágenes cuando son rescatados dos pescadores, padre e hijo, que llevaban 7 días desaparecidos. Crédito armada y directemar.</td>
+        </tr>
+    </table>
+    <table>
+            <video controls>
+            <source src="https://videosetv.ecn.cl/EMOLTV_V2_20240331083011120_480p.mp4" type="video/mp4" width="600" hidden="500">
+            <p>Your browser does not support the audio element.</p>
+            </video>
+    </table>
+    <table>
+        <tr>
+            <td>AUDIO: Revisa lo mejor de este dia.</td>
+            <td>General</td>
+            <td>El senador RD, Juan Ignacio Latorre, el senador de Demócratas, Matías Walker y la diputada IND-RN, Sofía Cid, abordaron la contingencia política; el ex presidente del Banco Central, Roberto Zahler ahondó en la situación económica del país y Agenda EmolTV conversó con Jorge Rojas, Premio Nacional de Medicina 2024. Ediciones Especiales conversó con Eduardo Garrido, director del programa ILP del MIT y Claudio Anabalón, Director de Asuntos Públicos y Relaciones Institucionales de Entel. Además, se llevó a cabo la transmisión del conversatorio online de AFP Provida “Tips para encontrar trabajo” y la transmisión de Encuentros El Mercurio "¿Es posible ser vegetariano en la edad madura?.</td>
+        </tr>
+    <table>
+        <audio controls>
+        <source src="https://static.emol.cl/emol50/Audio/2024/03/27/file_20240327175843.mp3" type="audio/mpeg">
+        <p>Your browser does not support the audio element.</p>
+        </audio>
+    </table>
+</section>
+
+
+<section id="deporte">
+    <h2>Sección de Deporte</h2>
+    <!-- Aquí va el contenido de deporte -->
+    <table>
+        <tr>
+            <th>Título</th>
+            <th>Categoría</th>
+            <th>Artículo</th>
+        </tr>
+        <tr>
+            <td>Dakar elimina historica categoria el que el chileno fue tres veces campeon.</td>
+            <td>Deporte</td>
+            <td>Se trata de los quads (cuatriciclos), que no participarán del Dakar 2025. El director de la carrera, el francés David Castera, anunció la controvertida decisión. "Todo el mundo me habla de la categoría de los quads. Los quads van a seguir en las carreras del campeonato del mundo, menos el Dakar. En Dakar hemos tomado la decisión de parar la categoría de quads al año que viene, en 2025", dijo en la previa del Rally del Portugal, tercera fecha del Campeonato Mundial de Rally Raid. Las razones están claras. La empresa que organiza el evento, Amaury Sport Organisation (ASO), quiere enfocarse en las motos debido a la alta demanda en la categoría.</td>
+        </tr>
+        <tr>
+            <td>La gran polémica en el gol de Colo Colo y que hizo explotar a Cerro Porteño y a la prensa paraguaya</td>
+            <td>Deporte</td>
+            <td>El agonico gol de Lucas Cepeda al 90+3' abrio una fuerte polemica, ya que desde Paraguay cuestionaron la legitimidad del tanto.Y es que el gol albo se origina tras un saque lateral por la banda derecha del Cacique. Sin embargo, según las imágenes, la pelota no había salido por completo. O al menos eso reclaman desde Paraguay. Incluso el técnico de Cerro Porteño, Manolo Jiménez, habló sobre la acción en conferencia: "Reclamamos una jugada en la que, a la postre, nace el contragolpe. La sensación que te queda es que diste todo y te vas con las manos vacías".</td>
+        </tr>
+        <tr>
+            <td>Destacado escalador completó dos grandes hitos a nivel mundial en la Patagonia</td>
+            <td>Deporte</td>
+            <td>El concepto de escalada radical tiene nombre y apellido: Sean Villanueva. Es un amante de la Patagonia, lugar donde completó dos grandes hitos para la escalada a nivel mundial. La primera el ascenso grupal y liberación de la ruta "Riders on the Storm", e inmediatamente posterior a ella encontró una corta ventana de tiempo para ir a escalar las cuatro Torres del Paine en solitario. Una aventura inédita en las 70 horas de buen tiempo que la Patagonia le regaló a este escalador belga, permitiéndole completar la travesía "Doble M" compuesta por la Torre Sur, Central, Norte y Peinetas.</td>
+        </tr>
+    </table>
+</section>
+
+<section id="negocios">
+    <h2>Sección de Negocios</h2>
+    <!-- Aquí va el contenido de negocios -->
+    <table>
+        <tr>
+            <th>Título</th>
+            <th>Categoría</th>
+            <th>Artículo</th>
+        </tr>
+        <tr>
+            <td>Latam busca volver a cotizar en la bolsa de Nueva York tras salirse en 2020 en medio de la crisis del covid</td>
+            <td>Negocios</td>
+            <td>El directorio de Latam Airlines Group aprobó dar inicio al proceso para volver a abrir y listar los ADR's en la Bolsa de Valores de Nueva York (NTSE), según informó la compañía a través de un hecho esencial enviado anoche a la Comisión para el Mercardo Financiero (CMF). Latam deslistó sus ADR´s de la plaza neoyorkina en 2020, tras ingresar en reroganización bajo el Capítulo 11 de la ley de quiebras de Estados Unidos, proceso del cual ya salió. Todo, en medio de la crisis financiera que le provocó la pandemia de covid-19.</td>
+        </tr>
+        <tr>
+            <td>Inmobiliarias con planes detenidos en Macul pierden US$266.000 al día por atrasos</td>
+            <td>Negocios</td>
+            <td>Las empresas inmobiliarias que tienen proyectos detenidos por cerca de US$500 millones en Macul están perdiendo cerca de US$8 millones al mes, o unos US$266.000 al día, producto de mayores costos ante retrasos en diversos permisos municipales.</td>
+        </tr>
+        <tr>
+            <td>Escándalo de Primus: La declaración en que se reconocen cheques falsos que complica aún más a ex gerente general</td>
+            <td>Negocios</td>
+            <td>Esta semana el escándalo de Primus -en cuya trama el factoring acusa a dos de sus ex ejecutivos de estafa, asociación ilícita y espionaje- volvió a traer movimiento. Esto, porque Francisco Coeymans, ex gerente general de la compañía, se ausentó de la formalización a la que debía asistir hoy en medio de la investigación, por lo que el Cuarto Juzgado de Garantía de Santiago dictó una orden de detención en su contra. Según su abogado se encuentra en Perú, con covid y una licencia médica por siete días. Algo que no convenció a la fiscalía, ni tampoco al tribunal</td>
+        </tr>
+    </table>
+</section>
+
+<section id="contacto">
+    <h2>Formulario de Contacto</h2>
+    <form id="formulario-contacto">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar Mensaje</button>
+    </form>
+</section>
+
+<footer>
+    <p>Derechos de autor © 2024 - El Faro</p>
+</footer>
+
+<script src="Editor Java/Java.js"></script>
+</body>
+</html>
